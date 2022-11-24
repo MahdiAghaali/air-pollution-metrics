@@ -1,7 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const GET_COUNTRIES = 'air-pollution-metrics/countries/GET_COUNTRIES';
-const GET_SINGLE_COUNTRY = 'air-pollution-metrics/countries/GET_SINGLE_COUNTRY';
 
 const initialState = {};
 
@@ -14,7 +13,6 @@ export default function countriesReducer(state = initialState, action) {
         flag: country.flags.svg,
         continent: country.continents[0],
       }));
-
       const groups = newState.reduce((groups, item) => ({
         ...groups,
         [item.continent]: [...(groups[item.continent] || []), item],
@@ -30,15 +28,6 @@ export const getCountries = createAsyncThunk(
   GET_COUNTRIES,
   async () => {
     const response = await fetch('https://restcountries.com/v3.1/all').then((res) => res.json());
-    return response;
-  },
-);
-
-export const getSingleCountry = createAsyncThunk(
-  GET_SINGLE_COUNTRY,
-  async () => {
-    const response = await fetch('https://countriesnow.space/api/v0.1/countries/cities', {
-    }).then((res) => res.json());
     return response;
   },
 );
