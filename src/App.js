@@ -9,12 +9,14 @@ import ContinentList from './components/ContinentList';
 import CountryList from './components/CountryList';
 import Country from './components/Country';
 import { getCountries } from './redux/countries/countries';
+import { getAllCities } from './redux/countries/cities';
 
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCountries());
-  }, []);
+    dispatch(getAllCities());
+  }, [dispatch]);
   return (
     <BrowserRouter>
       <Header />
