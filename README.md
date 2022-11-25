@@ -15,6 +15,7 @@
 ## Live Demo
 
 [Live Demo Link](https://air-quality-index-429n.onrender.com)
+[Loom Video](https://www.loom.com/share/1fefdc280f3d4816ad863bdb6a08ff8f)
 
 ## Screenshots
 ![Actions](https://raw.githubusercontent.com/MahdiAghaali/air-pollution-metrics/develop/public/111.JPG)

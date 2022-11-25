@@ -58,6 +58,7 @@ const Country = () => {
   };
 
   const searchCity = () => {
+    setStart(0);
     calcNewRender();
   };
 
