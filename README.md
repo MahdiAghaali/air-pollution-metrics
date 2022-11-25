@@ -15,9 +15,9 @@
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
-![Actions](https://github.com/MahdiAghaali/air-pollution-metrics/dev/public/111.JPG)
-![Actions](https://github.com/MahdiAghaali/air-pollution-metrics/dev/public/222.JPG)
-![Actions](https://github.com/MahdiAghaali/air-pollution-metrics/dev/public/333.JPG)
+![Actions](https://raw.githubusercontent.com/MahdiAghaali/air-pollution-metrics/develop/public/111.JPG)
+![Actions](https://raw.githubusercontent.com/MahdiAghaali/air-pollution-metrics/develop/public/222.JPG)
+![Actions](https://raw.githubusercontent.com/MahdiAghaali/air-pollution-metrics/develop/public/333.JPG)
 ## How to use
 
 In order to run this project locally enter the following commands in a command line tool
