@@ -15,7 +15,7 @@ export default function citiesReducer(state = initialState, action) {
           ...cntry,
           cities: cntry.cities.map((cty) => {
             if (cty.name === action.payload.cityName) {
-              return { ...cty, data: 1 };
+              return { ...cty, data: action.payload.data };
             }
             return cty;
           }),

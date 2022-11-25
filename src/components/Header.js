@@ -1,25 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../Styles/header.css';
 
 const Header = () => (
   <header>
+    <Link to="/"><img alt="logo" src="worldmap-mobile.png" /></Link>
     <h1>
       Api Pollution Metrics
     </h1>
-    <label htmlFor="countrySearch">
-      <span>Search</span>
-      <input id="countrySearch" type="text" />
-    </label>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">List</Link>
-        </li>
-        <li>
-          <Link to="/country">Country</Link>
-        </li>
-      </ul>
-    </nav>
   </header>
 );
 
