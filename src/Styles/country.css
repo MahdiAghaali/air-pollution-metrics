@@ -1,0 +1,43 @@
+#country > img {
+  width: 100vw;
+}
+
+#country > h2 {
+  text-align: center;
+}
+
+#country > h3 {
+  text-align: center;
+  background-color: var(--darkBlue);
+  margin: 0;
+  padding: 20px;
+}
+
+#country > input {
+  font-size: 2rem;
+  width: 100%;
+}
+
+#country ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#country ul > li:nth-child(even) {
+  background-color: var(--darkBlue);
+}
+
+#country nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#country nav > button {
+  height: 8vh;
+  width: 50vw;
+  font-size: 1.5rem;
+  margin-top: 2vh;
+  border: none;
+  background-color: silver;
+}

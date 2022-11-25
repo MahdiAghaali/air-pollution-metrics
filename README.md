@@ -1,6 +1,6 @@
-# PROJECT NAME
+# Air Pollution Metrics
 
-> PROJECT Description
+> Using this software you can look up Air Quality Index(AQI) of citis within diffent countries and continets
 
 ## Built With
 
@@ -21,8 +21,8 @@
 In order to run this project locally enter the following commands in a command line tool
 
 ```
-git clone https://github.com/MahdiAghaali/{PROJECTADDRESS}/
-cd {PROJECTFOLDER}
+git clone https://github.com/MahdiAghaali/air-pollution-metrics/
+cd air-pollution-metrics
 npm install
 npm run build
 npm run start
@@ -39,7 +39,7 @@ npm run start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MahdiAghaali/{PROJECTLINK}/issues).
+Feel free to check the [issues page](https://github.com/MahdiAghaali/air-pollution-metrics/issues).
 
 ## Show your support
 
