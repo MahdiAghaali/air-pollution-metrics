@@ -1,0 +1,77 @@
+#continentList {
+  max-height: 100%;
+}
+
+#continentList ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#continentList ul > li {
+  height: 50vw;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+#continentList ul > li:hover {
+  background-color: var(--lightBlue);
+}
+
+#continentList ul > li h3,
+#continentList ul > li div {
+  z-index: 1;
+}
+
+#continentList ul > li h3 {
+  margin: 0;
+}
+
+#continentList ul > li > a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  justify-content: flex-end;
+}
+
+#continentList ul > li > a > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#continentList ul > li:nth-child(2) {
+  background-color: var(--halfBlue);
+}
+
+#continentList ul > li:nth-child(3) {
+  background-color: var(--halfBlue);
+}
+
+#continentList ul > li:nth-child(6) {
+  background-color: var(--halfBlue);
+}
+
+#continentList ul > li:nth-child(7) {
+  background-color: var(--halfBlue);
+}
+
+h2 {
+  padding: 5px;
+  background-color: var(--darkBlue);
+  margin: 0;
+}
