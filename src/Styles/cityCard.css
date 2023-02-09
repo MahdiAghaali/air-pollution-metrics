@@ -1,0 +1,39 @@
+.city {
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badge {
+  background-color: gainsboro;
+  color: gray;
+  padding: 5px 10px 5px 10px;
+  border-radius: 100px;
+}
+
+.badge.bad {
+  background-color: red;
+  color: black;
+}
+
+.badge.high {
+  background-color: orange;
+  color: black;
+}
+
+.badge.med {
+  background-color: yellow;
+  color: black;
+}
+
+.badge.low {
+  background-color: yellowgreen;
+  color: black;
+}
+
+.badge.good {
+  background-color: green;
+  color: black;
+}
